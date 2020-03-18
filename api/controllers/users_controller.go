@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/gorilla/mux"
 	"github.com/VictorUUsoro/simplelogger/api/auth"
 	"github.com/VictorUUsoro/simplelogger/api/models"
 	"github.com/VictorUUsoro/simplelogger/api/responses"
 	"github.com/VictorUUsoro/simplelogger/api/utils/formaterror"
+	"github.com/gorilla/mux"
 )
 
 func (server *Server) CreateUser(w http.ResponseWriter, r *http.Request) {

@@ -3,8 +3,8 @@ package seed
 import (
 	"log"
 
-	"github.com/jinzhu/gorm"
 	"github.com/VictorUUsoro/simplelogger/api/models"
+	"github.com/jinzhu/gorm"
 )
 
 var users = []models.User{
